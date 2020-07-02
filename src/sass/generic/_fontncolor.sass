@@ -1,0 +1,28 @@
+$wht: white
+$blk: black
+
+.fc-blk,
+.fc-blk *
+    color: $blk !important
+
+.fc-wht,
+.fc-wht *
+    color: $wht !important
+
+// .f-os-sb,
+// .f-os-sb *
+//     font-family: 'Open Sans', sans-serif
+//     font-weight: 600
+//     line-height: 1
+
+@for $j from 14 through 96
+    .fs-#{$j},
+    .fs-#{$j} *
+        font-size: #{$j / 18}rem !important
+
+.lh-1-4,
+.lh-1-4 *
+    line-height: 1.4
+
+.fstyle-it
+    font-style: italic
