@@ -6,15 +6,15 @@ _n boilerplate
 -- Comandi via Node.js: --
 
 1. installare gulp-cli localmente prima di entrare nel progetto
-    *  npm install gulp-cli -g  *
+    *  npm install gulp-cli -g
 2. nel file gulpfile.js alla voce "proxy:" configurare con la directory del tema da sviluppare
-    *  http://localhost:8888/...  *
+    *  http://localhost:8888/...
 3. all'interno del progetto inizializzare i moduli npm
-    *  npm install  *
+    *  npm install
 4. inizializzare il comando per il browsersync dei file css/js
-    *  gulp watch  *
+    *  gulp watch
 5. quando sei pronto per mettere il sito online
-    *  gulp build  *
+    *  gulp build
 
 
 
