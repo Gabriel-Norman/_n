@@ -1,7 +1,5 @@
 🚀 Tips & Tricks per l'utilizzo di questo tema 🚀
 
-_n boilerplate
-
 
 -- Comandi via Node.js: --
 
