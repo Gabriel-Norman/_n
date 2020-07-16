@@ -19,6 +19,8 @@
   "devDependencies": {
     "@wordpress/scripts": "^9.0.0",
     "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "delete-empty": "^3.0.0",
     "dir-archiver": "^1.1.1",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -51,5 +53,7 @@
     "lint:js": "wp-scripts lint-js 'js/*.js'",
     "bundle": "dir-archiver --src . --dest ../_s.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass style.css.map"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gsap": "^3.4.0"
+  }
 }
