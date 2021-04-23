@@ -214,6 +214,7 @@ add_action( 'widgets_init', 'cookie_widgets_init' );
  * Enqueue scripts and styles.
  */
 function _n_scripts() {
+	wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-latest.min.js', array(), false, true);
 	wp_enqueue_script( 'gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js', array(), false, true );
 
 	wp_enqueue_style( '_n-style', get_template_directory_uri() . '/dist/css/style.css', array(), _S_VERSION );
