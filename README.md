@@ -1,9 +1,9 @@
-🚀 Tips & Tricks per l'utilizzo di questo tema 🚀
+# 🚀 Tips & Tricks per l'utilizzo di questo tema 🚀
 
 _n boilerplate
 
 
--- Comandi via Node.js: --
+### Comandi via Node.js:
 
 1. installare gulp-cli localmente prima di entrare nel progetto
     *  npm install gulp-cli -g  *
@@ -16,9 +16,15 @@ _n boilerplate
 5. quando sei pronto per mettere il sito online
     *  gulp compile  *
 
+Per poter rifare il comando gulp compile, eliminare la cartella precedentemente creata
 
 
--- Impostazioni per usare woocommerce e jetpack --
+### Decompilatore SASS online
+
+https://www.sassmeister.com/
+
+
+### Impostazioni per usare woocommerce e jetpack
 
 1. eliminare l'underline prima del file ./sass/_woocommerce.sass per poter attivare il css
 2. decommentare la funzione di compatibilità di woocommerce nel functions.php alla riga 230
@@ -26,8 +32,8 @@ _n boilerplate
 
 
 
--- Struttura file e templates --
+### Struttura file e templates
 
 
 
--- Funzioni utili per il functions.php --
+### Funzioni utili per il functions.php
